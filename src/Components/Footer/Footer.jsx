@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import { BsDiscord, BsMailbox, BsTelegram, BsTwitter } from "react-icons/bs";
+import { BsDiscord, BsTelegram, BsTwitter,  } from "react-icons/bs";
+import { GrMail} from "react-icons/gr";
 
 const Footer = () => {
    return (
@@ -16,7 +17,7 @@ const Footer = () => {
                <BsDiscord />
             </a>
             <a href="#">
-               <BsMailbox />
+               <GrMail />
             </a>
          </ul>
          <p>© 2023 copyright - BigPlayer.io</p>

@@ -22,3 +22,9 @@ a {
    text-decoration: none;
    color: var(--cor-texto);
 }
+
+h1,
+h2,
+h3 {
+   font-family: Arial, Helvetica, sans-serif;
+}

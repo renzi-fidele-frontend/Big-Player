@@ -239,6 +239,10 @@
    #container > #hero > div {
       padding-inline: 15%;
    }
+
+   #startContainer > .box > a {
+      font-size: 1.6em;
+   }
 }
 
 @media screen and (max-width: 1077px) {
@@ -274,7 +278,11 @@
       background-size: 40px 40px;
       height: 40px;
       width: 40px;
-   
+   }
+
+   #startContainer {
+      padding-inline: 20%;
+      margin-top: 8%;
    }
 }
 
@@ -295,23 +303,30 @@
       bottom: 7px;
    }
 
-
    #container > #hero > div > div > #right > img {
       width: 120px;
+   }
+
+   #sobre {
+      padding-inline: 5%;
    }
 
    #sobre .titulo2::before {
       background-size: 35px 35px;
       height: 35px;
       width: 35px;
-   
    }
 
    #container > #hero > div {
       padding-top: 9%;
    }
 
-
+   #startContainer {
+      padding-inline: 15%;
+   }
+   #sobre > div {
+      font-size: 17px;
+   }
 }
 
 @media screen and (max-width: 721px) {
@@ -323,9 +338,20 @@
       padding-inline: 3em;
    }
 
+   #startContainer > .box1 {
+      margin-top: 5%;
+   }
+
+   #startContainer > .box1 .greyBar > p {
+      padding-block: .5em;
+   }
 }
 
 @media screen and (max-width: 625px) {
+   #container > #hero {
+      height: 50vh;
+   }
+
    #container > #hero > div > div > #left > p {
       font-size: 15px;
    }
@@ -342,19 +368,19 @@
       background-size: 30px 30px;
       height: 30px;
       width: 30px;
-   
    }
 
    #container > #hero > div > div > #right > img {
-      width: 100px
+      width: 100px;
    }
-   
+
    #container > #hero > div > div > #left > a {
       margin-top: 2em;
    }
 
-
-
+   #startContainer {
+      padding-inline: 8%;
+   }
 }
 
 @media screen and (max-width: 541px) {
@@ -366,13 +392,28 @@
       font-size: 1.1em;
    }
 
+   #sobre > div > p {
+      font-size: 15px;
+   }
+
    #sobre .titulo2::before {
       background-size: 22px 22px;
       height: 22px;
       width: 22px;
-   
    }
 
+   #startContainer .greyBar > img {
+      width: 30px;
+   }
+
+   #startContainer > .box > a {
+      font-size: 1.3em;
+   }
+
+   #startContainer > .box > p {
+      font-size: 15px;
+   }
+   
 }
 
 @media screen and (max-width: 450px) {
