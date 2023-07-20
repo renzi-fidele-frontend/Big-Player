@@ -68,7 +68,6 @@ const Home = () => {
 
             <h2 className={styles.titulo2}>Road Map</h2>
             <p>Q3 2023</p>
-
          </section>
       </div>
    );

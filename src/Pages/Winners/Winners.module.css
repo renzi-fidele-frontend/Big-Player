@@ -1,0 +1,7 @@
+#container {
+    color: white;
+}
+
+#container > div {
+    margin-top: 0 !important;
+}
