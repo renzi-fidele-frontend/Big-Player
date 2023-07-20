@@ -7,7 +7,7 @@ const Header = () => {
    return (
       <header id={styles.container}>
          <nav>
-            <Link>
+            <Link to={"/"}>
                <img id={styles.logo} src={logo} alt="Logo do Big Game" />
             </Link>
             <Link to={"/#about"}>About</Link>

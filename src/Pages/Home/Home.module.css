@@ -206,8 +206,11 @@
 }
 
 #startContainer > .titulo2::before {
-   content: url("/src/assets/roadIco.png");
-   height: 50px !important;
+   background-image: url("/src/assets/roadIco.png");
+   background-size: 55px 55px;
+   content: "";
+   width: 55px;
+   height: 55px;
    margin-right: 10px;
 }
 
@@ -216,7 +219,16 @@
    font-size: 18px;
    font-weight: 500;
    margin-top: 5px;
-   margin-bottom: 5em;
+   margin-bottom: 10em;
+}
+
+@media screen and (max-width: 1527px) {
+   #startContainer > .titulo2::before {
+      background-size: 49px 49px;
+      width: 49px;
+      height: 49px;
+      margin-right: 16px;
+   }
 }
 
 @media screen and (max-width: 1457px) {
@@ -280,6 +292,13 @@
       width: 40px;
    }
 
+   #startContainer > .titulo2::before {
+      background-size: 40px 40px;
+      width: 40px;
+      height: 40px;
+      margin-right: 16px;
+   }
+
    #startContainer {
       padding-inline: 20%;
       margin-top: 8%;
@@ -287,6 +306,9 @@
 }
 
 @media screen and (max-width: 887px) {
+   #startContainer > p {
+      margin-bottom: 7em;
+   }
    #container > #hero > div > div > #left > p {
       font-size: 18px;
    }
@@ -317,6 +339,13 @@
       width: 35px;
    }
 
+   #startContainer > .titulo2::before {
+      background-size: 33px 33px;
+      width: 33px;
+      height: 33px;
+      margin-right: 16px;
+   }
+
    #container > #hero > div {
       padding-top: 9%;
    }
@@ -343,7 +372,7 @@
    }
 
    #startContainer > .box1 .greyBar > p {
-      padding-block: .5em;
+      padding-block: 0.5em;
    }
 }
 
@@ -402,6 +431,13 @@
       width: 22px;
    }
 
+   #startContainer > .titulo2::before {
+      background-size: 20px 20px;
+      width: 20px;
+      height: 20px;
+      margin-right: 16px;
+   }
+
    #startContainer .greyBar > img {
       width: 30px;
    }
@@ -413,7 +449,6 @@
    #startContainer > .box > p {
       font-size: 15px;
    }
-   
 }
 
 @media screen and (max-width: 450px) {
@@ -424,10 +459,4 @@
    #container > #hero > div > div > #left > a {
       font-size: 15px;
    }
-}
-
-@media screen and (max-width: 721px) {
-}
-
-@media screen and (max-width: 721px) {
 }

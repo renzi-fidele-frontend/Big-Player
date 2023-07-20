@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./Home.module.css";
 import avatar from "../../assets/avatar.svg";
 import iconStart from "../../assets/iconStart.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import GreenPassCard from "../../Components/GreenPassCard/GreenPassCard";
-import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
+   const loc = useLocation();
+
+   const roadMapRef = useRef();
+   const aboutRef = useRef();
+
+   useEffect(() => {
+      if (loc.hash === "#roadmap") {
+         roadMapRef.current.scrollIntoView({ behavior: "smooth" });
+      } else if (loc.hash === "#about") {
+         aboutRef.current.scrollIntoView({ behavior: "smooth" });
+      }
+   }, [loc.hash]);
+
    return (
       <div id={styles.container}>
          {/*Secao do hero */}
@@ -27,7 +39,7 @@ const Home = () => {
          </section>
 
          {/*Secao sobre */}
-         <section id={styles.sobre}>
+         <section ref={aboutRef} id={styles.sobre}>
             <h2 className={styles.titulo2}>About us</h2>
             <div>
                <p>Big Player is a pioneering game never seen before. A growth economy</p>
@@ -66,7 +78,9 @@ const Home = () => {
                <GreenPassCard titulo={"Green Pass"} code={"0002"} key={"0002"} data={"01/08/23"} showAllWinners={true} />
             </div>
 
-            <h2 className={styles.titulo2}>Road Map</h2>
+            <h2 ref={roadMapRef} className={styles.titulo2}>
+               Road Map
+            </h2>
             <p>Q3 2023</p>
          </section>
       </div>
