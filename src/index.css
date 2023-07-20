@@ -1,0 +1,24 @@
+:root {
+   --cor-fundo0: black;
+   --cor-texto: white;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Rubik", sans-serif;
+}
+
+body {
+   background-color: var(--cor-fundo0);
+}
+
+img {
+   max-width: 100%;
+}
+
+a {
+   text-decoration: none;
+   color: var(--cor-texto);
+}

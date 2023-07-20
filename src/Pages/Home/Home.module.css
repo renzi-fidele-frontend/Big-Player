@@ -1,0 +1,218 @@
+#container {
+   color: var(--cor-texto);
+}
+
+/*---------------Secao Hero-----------*/
+#container > #hero {
+   background-image: url("/src/assets/champions.gif");
+   height: 70vh;
+   background-position: center center;
+   background-size: cover;
+   background-color: black;
+   position: relative;
+}
+
+#container > #hero::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, black 100%);
+   height: 30%;
+}
+
+#container > #hero > div {
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.911);
+   height: 100%;
+   padding-inline: 25%;
+   padding-top: 4%;
+}
+
+#container > #hero > div > div {
+   opacity: 1;
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+#container > #hero > div > div > #left {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   display: flex;
+   flex-flow: column;
+   justify-content: start;
+}
+
+#container > #hero > div > div > #left > p {
+   margin-top: 2em;
+   font-size: 25px;
+}
+
+#container > #hero > div > div > #left > a {
+   background-color: #7f902d;
+   padding: 10px 5em;
+   color: black;
+   margin-top: 3em;
+   font-size: 18px;
+}
+
+#container > #hero > div > div > #right {
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: center;
+}
+
+#container > #hero > div > div > #right > img {
+   width: 190px;
+}
+
+.titulo1 {
+   font-weight: 900;
+   font-size: 6em;
+   text-transform: uppercase;
+}
+
+.titulo2 {
+   text-transform: uppercase;
+   position: relative;
+   font-weight: 900;
+   font-size: 2.7em;
+   width: fit-content;
+   display: flex;
+   flex-flow: row nowrap;
+}
+
+.titulo2::after {
+   content: "";
+   position: absolute;
+   bottom: 13px;
+   right: -18px;
+   width: 10px;
+   height: 10px;
+   background: orange;
+}
+
+/*----------Secao sobre------------*/
+#sobre {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   padding-top: 2%;
+}
+
+#sobre .titulo2::before {
+   content: url("/src/assets/icon.png");
+   height: 1px;
+   margin-right: 5px;
+}
+
+#sobre > div {
+   font-size: 20px;
+   text-align: center;
+   margin-top: 1%;
+}
+
+#sobre > div > p {
+   margin-top: 3px;
+}
+
+#sobre > div > span {
+   color: gray;
+}
+
+#sobre > div > p > span {
+   color: rgb(82, 82, 82);
+}
+
+/*------Secao de start ----------*/
+#startContainer {
+   padding-inline: 25%;
+   margin-top: 5%;
+
+}
+
+#startContainer > .greyBar {
+   background-color: #1c1c1b;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   padding-left: 2em;
+   padding-block: 0.5em;
+}
+
+#startContainer .greyBar > img {
+   width: 50px;
+}
+
+#startContainer .greyBar > p {
+   margin-left: 1em;
+   font-size: 20px;
+}
+
+#startContainer > .box {
+   border: 1px solid grey;
+   padding: 1.2em;
+   display: flex;
+   flex-flow: column;
+}
+
+#startContainer > .box > a {
+   background-color: white;
+   color: rgb(29, 29, 29);
+   text-align: center;
+   font-size: 2em;
+   font-weight: 800;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 2em;
+}
+
+#startContainer > .box1 {
+   margin-top: 3%;
+   border: 1px solid grey;
+   padding-top: 1%;
+   padding-inline: 0.3%;
+   padding-bottom: 2%;
+
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#startContainer > .box1 > .greyBar {
+   background-color: #1c1c1b;
+   text-align: center;
+   width: 100%;
+   margin-bottom: 1em;
+}
+
+#startContainer > .box1 > .greyBar > p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 800;
+   color: #777978;
+   text-shadow: #000000 1px 8px 1px;
+   padding-block: 1em;
+   font-size: 1.7em;
+}
+
+#startContainer > .titulo2 {
+   margin: 0 auto;
+   margin-top: 3em;
+}
+
+#startContainer > .titulo2::before {
+   content: url("/src/assets/roadIco.png");
+   height: 50px !important;
+   margin-right: 10px;
+}
+
+#startContainer > p {
+   text-align: center;
+   font-size: 18px;
+   font-weight: 500;
+   margin-top: 5px;
+   margin-bottom: 5em;
+}

@@ -1,0 +1,46 @@
+#container {
+   display: flex;
+   flex-flow: row nowrap;
+}
+
+#container > #left {
+   background-color: #076b3b;
+   text-align: center;
+   padding-inline: 1em;
+   padding-block: 0.4em;
+   border-radius: 7px;
+}
+
+#container > #left > p {
+   margin-top: 3px;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+
+#container > #left > span {
+   color: black;
+   font-size: 11px;
+}
+
+#container > #right {
+   padding-top: 6px;
+   padding-left: 2em;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+}
+
+#container > #right h5 {
+   color: #076b3b;
+   font-size: 1.4em;
+   font-weight: 500;
+}
+
+#container > #right span {
+   font-size: 13px;
+}
+
+#container > #right > p {
+   color: #777777;
+   font-weight: 700;
+}
