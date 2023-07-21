@@ -10,12 +10,15 @@ const Home = () => {
 
    const roadMapRef = useRef();
    const aboutRef = useRef();
+   const startRef = useRef();
 
    useEffect(() => {
       if (loc.hash === "#roadmap") {
          roadMapRef.current.scrollIntoView({ behavior: "smooth" });
       } else if (loc.hash === "#about") {
          aboutRef.current.scrollIntoView({ behavior: "smooth" });
+      } else if (loc.hash === "#start") {
+         startRef.current.scrollIntoView({ behavior: "smooth" });
       }
    }, [loc.hash]);
 
@@ -55,7 +58,7 @@ const Home = () => {
          <section id={styles.startContainer}>
             <div className={styles.greyBar}>
                <img src={iconStart} alt="Icone do site Big Player" />
-               <p>Start Here</p>
+               <p ref={startRef}>Start Here</p>
             </div>
             <div className={styles.box}>
                <p>
