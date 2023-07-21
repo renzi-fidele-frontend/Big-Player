@@ -349,6 +349,8 @@
       width: 35px;
    }
 
+
+
    #startContainer > .titulo2::before {
       background-size: 33px 33px;
       width: 33px;
@@ -388,7 +390,7 @@
 
 @media screen and (max-width: 625px) {
    #container > #hero {
-      height: 60vh;
+      height: 45vh;
    }
 
    #container > #hero > div > div > #left > p {

@@ -24,7 +24,7 @@ const Home = () => {
          {/*Secao do hero */}
          <section id={styles.hero}>
             <div>
-               <div>
+               <div className={styles.caixa}>
                   <div id={styles.left}>
                      <h1 className={styles.titulo1}>Earn</h1>
                      <h2 className={styles.titulo2}>Infinity</h2>
