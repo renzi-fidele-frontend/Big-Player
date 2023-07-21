@@ -459,6 +459,10 @@
    #startContainer > .box > p {
       font-size: 15px;
    }
+
+   #container > #hero > div > div {
+      padding-bottom: 2%;
+   }
 }
 
 @media screen and (max-width: 450px) {
