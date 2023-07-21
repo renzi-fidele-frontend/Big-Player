@@ -1,22 +1,28 @@
 .container {
-    color: white;
+   color: white;
 }
 
-.container > div {
-    margin-top: 0 !important;
+.hero {
+    height: 100% !important;
 }
 
 #break {
-    display: flex !important;
-    margin-top: 0 !important;
+   display: flex !important;
+   margin-top: 0 !important;
+   padding-bottom: 6% !important;
 }
 
 .break {
-    padding-top: 2% !important;
-    margin-top: 0 !important;
+   padding-top: 4% !important;
+   padding-bottom: 15% !important;
+   margin-top: 0 !important;
+   margin-top: 0 !important;
+   height: 100% !important;
 }
 
-.break {
-    padding-top: 4% !important;
-
+@media screen and (max-width: 625px) {
+    .break {
+        height: 100% !important;
+        padding-bottom: 16% !important;
+    }
 }

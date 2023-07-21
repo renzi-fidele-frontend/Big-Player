@@ -1,8 +1,11 @@
 import React from "react";
 import styles from "./GreenPassCard.module.css";
 import { BsGlobe } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const GreenPassCard = ({ code, titulo, descricao, data, showAllWinners }) => {
+   const navegar = useNavigate()
+
    return (
       <div id={styles.container}>
          <div id={styles.left}>
@@ -20,7 +23,7 @@ const GreenPassCard = ({ code, titulo, descricao, data, showAllWinners }) => {
                <p>{descricao}</p>
                <span>{data}</span>
             </div>
-            {showAllWinners === true ? <p>All Winners</p> : undefined}
+            {showAllWinners === true ? <p onClick={()=> {navegar("/winners")}}>All Winners</p> : undefined}
          </div>
       </div>
    );

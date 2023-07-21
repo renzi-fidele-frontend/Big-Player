@@ -6,7 +6,7 @@ import GreenPassCard from "../../Components/GreenPassCard/GreenPassCard";
 const Winners = () => {
    return (
       <div id={estiloHome.container} className={styles.container}>
-         <section id={estiloHome.hero}>
+         <section id={estiloHome.hero} className={styles.hero}>
             <div id={estiloHome.startContainer} className={styles.break}>
                <div id={styles.break} className={estiloHome.box1}>
                   <div className={estiloHome.greyBar}>

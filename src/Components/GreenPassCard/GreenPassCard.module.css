@@ -44,3 +44,8 @@
    color: #777777;
    font-weight: 700;
 }
+
+#container > p:hover {
+   cursor: pointer;
+   text-decoration: underline;
+}
