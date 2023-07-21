@@ -1,7 +1,22 @@
-#container {
+.container {
     color: white;
 }
 
-#container > div {
+.container > div {
     margin-top: 0 !important;
+}
+
+#break {
+    display: flex !important;
+    margin-top: 0 !important;
+}
+
+.break {
+    padding-top: 2% !important;
+    margin-top: 0 !important;
+}
+
+.break {
+    padding-top: 4% !important;
+
 }

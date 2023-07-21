@@ -5,17 +5,22 @@ import GreenPassCard from "../../Components/GreenPassCard/GreenPassCard";
 
 const Winners = () => {
    return (
-      <div id={styles.container}>
-         <div id={estiloHome.startContainer}>
-            <div className={estiloHome.box1}>
-               <div className={estiloHome.greyBar}>
-                  <p>Winners</p>
+      <div id={estiloHome.container} className={styles.container}>
+         <section id={estiloHome.hero}>
+            
+             
+               <div id={estiloHome.startContainer} className={styles.break}>
+                  <div id={styles.break} className={estiloHome.box1}>
+                     <div className={estiloHome.greyBar}>
+                        <p>Winners</p>
+                     </div>
+                     <GreenPassCard titulo={"Green Pass"} code={"0002"} key={"0002"} data={"01/08/23"} showAllWinners={false} />
+                     <hr style={{ color: "grey", height: "1px", marginBlock: "15px", width: "100%" }} />
+                     <GreenPassCard titulo={"Green Pass"} code={"0002"} key={"0002"} data={"01/08/23"} showAllWinners={false} />
+                  </div>
                </div>
-               <GreenPassCard titulo={"Green Pass"} code={"0002"} key={"0002"} data={"01/08/23"} showAllWinners={false} />
-               <hr style={{ color: "grey", height: "1px", marginBlock: "15px", width: "100%" }} />
-               <GreenPassCard titulo={"Green Pass"} code={"0002"} key={"0002"} data={"01/08/23"} showAllWinners={false} />
-            </div>
-         </div>
+            
+         </section>
       </div>
    );
 };
