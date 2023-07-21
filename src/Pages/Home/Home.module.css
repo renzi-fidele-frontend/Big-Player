@@ -487,6 +487,11 @@
       height: 43px !important;
    }
 
+   #startContainer {
+      margin-top: 21%;
+   }
+
+
    #startContainer > p {
       margin-bottom: 10em;
    }
