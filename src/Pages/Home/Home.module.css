@@ -34,6 +34,7 @@
    display: grid;
    grid-template-columns: 50% 50%;
    padding-bottom: 16%;
+   z-index: 5;
 }
 
 #container > #hero > div > div > #left {
