@@ -13,10 +13,10 @@ const Footer = () => {
             <a href="https://t.me/bigplayer_io">
                <BsTelegram />
             </a>
-            <a href="">
+            <a href="https://discord.com">
                <BsDiscord />
             </a>
-            <a href="#">
+            <a href="mailto:info@bigplayer.io">
                <GrMail />
             </a>
          </ul>
