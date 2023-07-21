@@ -54,9 +54,11 @@
    background-color: #7f902d;
    padding: 10px 5em;
    color: black;
-   margin-top: 3em;
    font-size: 18px;
-   transition: all 0.3s ease-in-out;
+   margin-top: 3em;
+   margin-bottom: 1em;
+   z-index: 6;
+   transition: all 0.3s;
 }
 
 #container > #hero > div > div > #left > a:hover {

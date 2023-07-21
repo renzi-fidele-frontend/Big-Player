@@ -36,7 +36,14 @@ const Home = () => {
                         <br />
                         In Terra Classic.
                      </p>
-                     <Link to={"/#start"}>Start</Link>
+                     <Link
+                        onClick={() => {
+                           startRef.current.scrollIntoView({ behavior: "smooth" });
+                        }}
+                        to={"/#start"}
+                     >
+                        Start
+                     </Link>
                   </div>
                   <div id={styles.right}>
                      <img src={avatar} alt="Ilustração do avatar do site" />
