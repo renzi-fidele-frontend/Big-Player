@@ -5,11 +5,10 @@
 /*---------------Secao Hero-----------*/
 #container > #hero {
    background-image: url("/src/assets/champions.gif");
-   height: 70vh;
    background-position: center center;
    background-size: cover;
-   background-color: black;
    position: relative;
+   height: 100%;
 }
 
 #container > #hero::after {
@@ -34,6 +33,7 @@
    opacity: 1;
    display: grid;
    grid-template-columns: 50% 50%;
+   padding-bottom: 5%;
 }
 
 #container > #hero > div > div > #left {
@@ -388,7 +388,7 @@
 
 @media screen and (max-width: 625px) {
    #container > #hero {
-      height: 50vh;
+      height: 60vh;
    }
 
    #container > #hero > div > div > #left > p {
