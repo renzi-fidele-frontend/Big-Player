@@ -105,7 +105,7 @@
    display: flex;
    flex-flow: column;
    align-items: center;
-   padding-top: 2%;
+   padding-block: 6%;
 }
 
 #sobre .titulo2::before {
@@ -480,5 +480,9 @@
 
    #container > #hero > div > div {
       padding-bottom: 15%;
+   }
+
+   #sobre {
+      padding-block: 8%;
    }
 }
