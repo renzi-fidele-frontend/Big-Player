@@ -56,6 +56,11 @@
    color: black;
    margin-top: 3em;
    font-size: 18px;
+   transition: all .3s ease-in-out;
+}
+
+#container > #hero > div > div > #left > a:hover {
+   background-color: orange;
 }
 
 #container > #hero > div > div > #right {
@@ -169,6 +174,11 @@
    font-weight: 800;
    font-family: Arial, Helvetica, sans-serif;
    margin-top: 2em;
+   transition: all .3s ease-in-out;
+}
+
+#startContainer > .box > a:hover {
+   background-color: orange;
 }
 
 #startContainer > .box1 {
