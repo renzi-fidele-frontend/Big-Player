@@ -7,13 +7,13 @@ const Footer = () => {
    return (
       <footer id={styles.container}>
          <ul>
-            <a href="#">
+            <a href="https://twitter.com/bigplayer_io">
                <BsTwitter />
             </a>
-            <a href="#">
+            <a href="https://t.me/bigplayer_io">
                <BsTelegram />
             </a>
-            <a href="#">
+            <a href="">
                <BsDiscord />
             </a>
             <a href="#">

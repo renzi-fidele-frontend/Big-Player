@@ -75,7 +75,7 @@ const Home = () => {
                   *Every 200.000 delegates receive 1 ticket. More lunc delegated, more tockets Daily draw for a $122 Green Pass that will give
                   you acess to all $ prize tournments
                </p>
-               <a href="#">Delegate</a>
+               <a href="https://station.terra.money/stake/terravaloper13yagpgmqjr8nzavprn20j5sh8etc2xmm3t3klv#Delegate">Delegate</a>
             </div>
 
             <div className={styles.box1}>
