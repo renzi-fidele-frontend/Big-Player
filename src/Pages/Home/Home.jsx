@@ -31,7 +31,11 @@ const Home = () => {
                   <div id={styles.left}>
                      <h1 className={styles.titulo1}>Earn</h1>
                      <h2 className={styles.titulo2}>Infinity</h2>
-                     <p>Game, Play To Earn, In Terra Classic.</p>
+                     <p>
+                        Game, Play To Earn
+                        <br />
+                        In Terra Classic.
+                     </p>
                      <Link to={"/#start"}>Start</Link>
                   </div>
                   <div id={styles.right}>
