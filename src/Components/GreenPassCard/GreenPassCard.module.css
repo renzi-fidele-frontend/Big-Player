@@ -45,7 +45,8 @@
    font-weight: 700;
 }
 
-#container > p:hover {
+#container > #right > p:hover {
    cursor: pointer;
    text-decoration: underline;
+   color: orange;
 }

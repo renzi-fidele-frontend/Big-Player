@@ -58,12 +58,14 @@
    font-size: 18px;
    margin-top: 3em;
    margin-bottom: 1em;
+   letter-spacing: 2px;
    z-index: 6;
    transition: all 0.3s;
 }
 
 #container > #hero > div > div > #left > a:hover {
    background-color: orange;
+   transform: translateY(-5px);
 }
 
 #container > #hero > div > div > #right {
