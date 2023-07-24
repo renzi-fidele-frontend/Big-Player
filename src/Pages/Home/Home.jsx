@@ -89,7 +89,7 @@ const Home = () => {
                <div className={styles.greyBar}>
                   <p>Winner</p>
                </div>
-               <GreenPassCard titulo={"Green Pass"} code={"0002"} key={"0002"} data={"01/08/23"} showAllWinners={true} />
+               <GreenPassCard titulo={"Green Pass"} descricao={"Next"} code={"0002"} key={"0002"} data={"01/08/23"} showAllWinners={true} />
             </div>
 
             <h2 ref={roadMapRef} id={styles.lastTitulo} className={styles.titulo2}>

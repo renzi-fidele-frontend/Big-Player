@@ -17,7 +17,6 @@ const GreenPassCard = ({ code, titulo, descricao, data, showAllWinners }) => {
          <div id={styles.right}>
             <div>
                <h5>{titulo}</h5>
-               <p>Next</p>
                <p>{descricao}</p>
                <span>{data}</span>
             </div>
